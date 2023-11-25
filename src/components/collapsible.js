@@ -1,0 +1,28 @@
+"use client";
+import React, { useState } from "react";
+
+const Collapsible = ({title, text}) => {
+  const [isOpen, setIsOpen] = useState(false);
+  return (
+    <div className="flex flex-col gap-0.5">
+      <div className="flex justify-between px-8 w-[353px] h-[72px] items-center bg-white rounded-[20px] box_collapse ">
+        <h2 className="text-black text-[15px] font-montserrat">{title}</h2>
+        <button className={`transition duration-200 outline-none ${isOpen ? 'rotate-90 ': 'rotate-45 '}`} onClick={() => setIsOpen(!isOpen)}>
+        <svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 58 58" fill="none">
+<path d="M37.25 20.751L20.7508 37.2501" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20.75 20.751L37.2492 37.2501" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </button>
+      </div>
+      {isOpen ? (
+        <div className="p-8 bg-white box_collapse rounded-[20px]">
+          {" "}
+          <p className="text-[13px] font-[montserrat] text-[#222] capitalize">{text}</p>
+         
+        </div>
+      ) : null}
+    </div>
+  );
+};
+
+export default Collapsible;
