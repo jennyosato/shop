@@ -310,7 +310,7 @@ With shoptinga you can sell all kinds of digital products like ebooks, online co
           </button>
         </section>
       </main>
-      <footer className="w-full bg-white px-2.5 flex flex-col gap-[53px]">
+      <footer className="w-full bg-white px-2.5 flex flex-col gap-[53px] text-black">
         <div className="flex flex-col gap-5">
           <h2 className="text-4xl font-semibold text-black font-montserrat">Follow us</h2>
           <div className="flex gap-[31px]">
@@ -412,7 +412,7 @@ With shoptinga you can sell all kinds of digital products like ebooks, online co
           </div>
         </div>
         <div className="flex flex-col gap-[53px] font-montserrat md:flex-row md:justify-between md:px-4">
-          <div>
+          <div className="text-black">
             <h2 className="text-4xl font-semibold  text-black">Company</h2>
             <ul role="list" className="flex flex-col gap-[15px] font-[montserrat] text-2xl py-[15px]">
               <li><Link href='#'>Home</Link></li>
