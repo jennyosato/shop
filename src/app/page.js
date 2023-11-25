@@ -85,8 +85,8 @@ export default function Home() {
                   Create an account
                 </h2>
                 <p className="self-stretch text-black font-montserrat font-medium leading-6 tracking-[0.2px] ">
-                  create a free shoptinga account if you\'re a new user or login
-                  if you\'re a registered user.
+                  create a free shoptinga account if you're a new user or login
+                  if you're a registered user.
                 </p>
               </div>
             </div>
@@ -145,7 +145,7 @@ export default function Home() {
           <div className="absolute top-11">
             <Image src='/Ellipse10.svg' width={81} height={70} alt="" />
           </div>
-          <div className="absolute top-10">
+          <div className="absolute top-10 right-0">
             <Image src='/Ellipse11.svg' width={78} height={71} alt="" />
           </div>
           <div className="absolute left-[60.5px] top-10">
