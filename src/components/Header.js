@@ -7,11 +7,11 @@ const Header = () => {
     const [success, setSuccess] = useState(false)
     const [isLoading, setIsLoading] = useState(false)
     const handleClick = () => {
-     setTimeout(() => {
       setIsLoading(true)
-      setSuccess(true)
+     setTimeout(() => {
       setIsLoading(false)
-     }, 5000)
+     }, 1000)
+     setSuccess(true)
     }
   return (
     <div
@@ -57,7 +57,7 @@ const Header = () => {
         className="px-2 md:w-[400px] rounded-[12px] focus:outline-none placeholder:font-[montserrat] placeholder:text-black placeholder:text-[13px]"
       />
       <button onClick={handleClick} className="outline-none text-white -ml-4 text-[13px] text-center flex justify-center items-center gap-[5px] p-3 rounded-[10px] bg-[#FEA500]">
-        {isLoading ? <span className='border rounded-full animate-spin'/> : <>Join Now{" "}
+        {isLoading ? <span className='border-y-2 border-white h-8 w-8 rounded-full animate-spin'/> : <>Join Now{" "}
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="33"
