@@ -1,7 +1,13 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
+import { Space_Mono } from 'next/font/google'
+import { Arimo } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
+const montserrat = Montserrat({subsets: ['latin'], variable: "--font-montserrat", weight: ['400', '500', '600', '700']})
+const space_mono = Space_Mono({subsets: ['latin'], variable: "--font-space_mono", weight: ['400', '700']})
+const arimo = Arimo({subsets: ['latin'], variable: "--font-arimo",weight: ['700']})
 
 export const metadata = {
   title: 'Create Next App',

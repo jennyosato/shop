@@ -32,12 +32,12 @@ export default function Home() {
           </div>
           <div className="w-full min-h-[201px] mb-[105px] h-auto flex flex-col items-center gap-[30px] shrink-0">
             <p className="text-sm tracking-[0.14px] text-white text-center">
-              "Unlock Your Business Potential with Shoptinga storefront"
+              Unlock Your Business Potential with Shoptinga storefront
             </p>
             <h2 className="text-center text-2xl font-semibold text-white">
               Join the waitlist !!!{" "}
             </h2>
-            <p className="text-xl font-medium text-center text-white">
+            <p className="text-xl font-medium text-center pl-5 pr-6 text-white w-[379px] h-[93px] md:w-auto md:h-auto">
               Don't wait any longer - join our waitlist today and be the first
               to be informed about our latest update
             </p>
@@ -46,7 +46,7 @@ export default function Home() {
             <input
               type="email"
               placeholder="Email"
-              className="px-2 rounded-[12px] focus:outline-none placeholder:font-montserrat placeholder:text-black placeholder:text-[13px]"
+              className="px-2 md:w-[400px] rounded-[12px] focus:outline-none placeholder:font-[montserrat] placeholder:text-black placeholder:text-[13px]"
             />
             <button className="outline-none text-white -ml-4 text-[13px] text-center flex justify-center items-center gap-[5px] p-3 rounded-[10px] bg-[#FEA500]">
               Join Now{" "}
@@ -67,14 +67,14 @@ export default function Home() {
             </button>
           </div>
         </div>
-        <section className="inline-flex flex-col items-center justify-center w-full bg-white min-h-[614px]">
+        <section className="inline-flex flex-col font-[montserrat] items-center justify-center w-full bg-white min-h-[614px]">
           <div className="py-[22px]">
-            <h2 className="text-black text-center font-montserrat text-[23px] font-semibold leading-[30px] tracking-[0.2px]">
+            <h2 className="text-black text-center font-[montserrat] text-[23px] font-semibold leading-[30px] tracking-[0.2px]">
               Start <span className="text-[#FEA302]">selling</span> your product
               by creating an account in less than 5 minutes
             </h2>
           </div>
-          <div className="flex flex-col space-y-[34px] py-2.5 ">
+          <div className="flex flex-col space-y-[34px] p-2.5 ">
             <div className="flex items-start gap-[5px]">
               <p className="inline-flex py-2.5 px-[15px] font-semibold font-montserrat text-black flex-col justify-center items-center gap-[10px] rounded-[14px] check">
                 1
@@ -85,8 +85,8 @@ export default function Home() {
                   Create an account
                 </h2>
                 <p className="self-stretch text-black font-montserrat font-medium leading-6 tracking-[0.2px] ">
-                  create a free shoptinga account if you're a new user or login
-                  if you're a registered user.
+                  create a free shoptinga account if you\'re a new user or login
+                  if you\'re a registered user.
                 </p>
               </div>
             </div>
@@ -125,35 +125,32 @@ export default function Home() {
             </button>
           </div>
         </section>
-        <section className="min-h-[320px] h-auto w-full flex flex-col justify-center gap-5 items-center shrink-0 mr-[19px]">
-          <div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="289"
-              height="238"
-              viewBox="0 0 289 238"
-              fill="none"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M61.2364 175.938C102.389 184.689 152.033 167.26 181.369 131.06C209.751 96.0355 210.416 54.1848 186.296 27.3665C203.396 26.2645 219.783 29.1024 233.762 36.4014C277.357 59.164 281.032 116.693 241.97 164.896C202.908 213.099 135.901 233.723 92.306 210.961C76.9656 202.951 66.5682 190.636 61.2364 175.938ZM38.7842 168.006C38.6673 167.946 38.5505 167.885 38.4339 167.824C-5.47475 144.898 -12.6704 91.2674 22.3619 48.0369C57.3943 4.80634 121.389 -11.6536 165.297 11.2725C166.48 11.8903 167.637 12.5304 168.767 13.1919C161.62 14.7669 154.456 16.8793 147.361 19.5033C110.738 5.87187 62.0248 20.3385 34.4602 54.3537C7.60711 87.4909 10.0186 127.835 38.2392 149.633C37.8226 155.917 38.0058 162.065 38.7842 168.006ZM57.5393 160.018C58.17 165.554 59.4041 170.887 61.2364 175.938C53.3756 174.266 45.8246 171.64 38.7842 168.006C42.0467 192.907 55.7662 214.176 79.6114 226.626C131.031 253.474 210.065 229.149 256.138 172.294C302.211 115.439 297.877 47.5842 246.457 20.7361C224.116 9.07156 196.564 7.0665 168.767 13.1919C175.596 17.1908 181.447 21.9748 186.296 27.3665C179.789 27.7858 173.179 28.7754 166.559 30.3068C163.284 27.6608 159.644 25.2721 155.645 23.1839C152.967 21.7855 150.2 20.56 147.361 19.5033C118.537 30.1635 90.8391 49.266 69.9299 75.0683C50.32 99.2672 39.8419 125.459 38.2392 149.633C41.2326 151.945 44.5164 154.049 48.0864 155.913C51.131 157.502 54.2896 158.869 57.5393 160.018ZM57.5393 160.018C54.7895 135.882 63.5047 107.878 84.0977 82.4658C105.868 55.6006 136.319 37.3021 166.559 30.3068C193.769 52.2895 195.781 92.0285 169.271 124.743C141.999 158.397 94.0239 172.916 57.5393 160.018Z"
-                fill="url(#paint0_linear_75_45)"
-              />
-              <defs>
-                <linearGradient
-                  id="paint0_linear_75_45"
-                  x1="246.456"
-                  y1="20.7369"
-                  x2="126.243"
-                  y2="250.974"
-                  gradientUnits="userSpaceOnUse"
-                >
-                  <stop stop-color="#FE7A00" />
-                  <stop offset="1" stop-color="#FE8900" />
-                </linearGradient>
-              </defs>
-            </svg>
+        <section className="min-h-[320px]  h-auto w-full flex flex-col justify-center gap-5 items-center shrink-0 mr-[19px]">
+         
+         
+          
+          <div className="eclipse_bg w-9/12 h-96 flex justify-center items-center relative" >
+          <div className="">
+            <Image src='/ecllipse.svg' width={136} height={129} alt="" />
+          </div>
+          <div className="absolute top-[126px] left-[0]">
+            <Image src='/Ellipse7.svg' width={75} height={71} alt="" />
+          </div>
+          <div className="absolute top-[230px] left-[97px]">
+            <Image src='/Ellipse8.svg' width={73} height={64} alt="" />
+          </div>
+          <div className="absolute top-10">
+            <Image src='/Ellipse9.svg' width={78} height={70} alt="" />
+          </div>
+          <div className="absolute top-11">
+            <Image src='/Ellipse10.svg' width={81} height={70} alt="" />
+          </div>
+          <div className="absolute top-10">
+            <Image src='/Ellipse11.svg' width={78} height={71} alt="" />
+          </div>
+          <div className="absolute left-[60.5px] top-10">
+            <Image src='/Ellipse12.svg' width={83} height={69} alt="" />
+          </div>
           </div>
           <p className="text-xs text-black text-center font-inter">
             Connect with <span className="text-[#FF8701]">customers</span>{" "}
@@ -163,8 +160,8 @@ export default function Home() {
         <div className="flex justify-end mt-[23px]">
           <Image src="/group.svg" alt="group icon" width={65} height={64} />
         </div>
-        <section className="flex flex-col gap-[42px]">
-          <h2 className="font-bold text-center tracking-[0.52px] text-[26px] font-[space-mono] leading-10 text-black">
+        <section className="flex flex-col gap-[42px] font-[spaceMono]">
+          <h2 className="font-bold text-center tracking-[0.52px] text-[26px] font-[spaceMono] leading-10 text-black">
             Reasons why you should sell with{" "}
             <span className="text-[#FE7A00]">shoptinga</span>
           </h2>
@@ -182,7 +179,7 @@ export default function Home() {
               </div>
 
               <div className="flex flex-col gap-[17px] h-[236px] sm:h-auto">
-                <h2 className="text-xl font-bold leading-10 tracking-[0.6px] font-[space mono] text-black ">
+                <h2 className="text-xl font-bold leading-10 tracking-[0.6px] font-[spaceMono] text-black ">
                   Digital product
                 </h2>
                 <p className="text-[#57595A] capitalize tracking-[0.14px] leading-[23px] font-bold text-sm">
@@ -205,7 +202,7 @@ export default function Home() {
               </div>
 
               <div className="flex flex-col gap-[17px] h-[236px] sm:h-auto">
-                <h2 className="text-xl font-bold leading-10 tracking-[0.6px] font-[space mono] text-black ">
+                <h2 className="text-xl font-bold leading-10 tracking-[0.6px] font-[spaceMono] text-black ">
                   Physical product
                 </h2>
                 <p className="text-[#57595A] capitalize tracking-[0.14px] leading-[23px] font-bold text-sm">
@@ -227,7 +224,7 @@ export default function Home() {
               </div>
 
               <div className="flex flex-col gap-[17px] h-[236px] sm:h-auto">
-                <h2 className="text-xl font-bold leading-10 tracking-[0.6px] font-[space mono] text-black ">
+                <h2 className="text-xl font-bold leading-10 tracking-[0.6px] font-[spaceMono] text-black ">
                   Easy Payment method
                 </h2>
                 <p className="text-[#57595A] capitalize tracking-[0.14px] leading-[23px] font-bold text-sm">
@@ -249,7 +246,7 @@ export default function Home() {
               </div>
 
               <div className="flex flex-col gap-[17px] h-[236px] sm:h-auto">
-                <h2 className="text-xl font-bold leading-10 tracking-[0.6px] font-[space mono] text-black ">
+                <h2 className="text-xl font-bold leading-10 tracking-[0.6px] font-[spaceMono] text-black ">
                   Fast delivery
                 </h2>
                 <p className="text-[#57595A] capitalize tracking-[0.14px] leading-[23px] font-bold text-sm">
@@ -308,14 +305,14 @@ With shoptinga you can sell all kinds of digital products like ebooks, online co
             />
           </div>
 
-          <button className="w-[195px] h-[60px] font-bold text-sm text-center text-[#FF8701] pl-5 pr-[17px] rounded-lg border-[1.5px] border-[#FF8601] flex justify-center items-center">
+          <button className="w-[195px] h-[60px] font-[monserrat] font-bold text-sm text-center text-[#FF8701] pl-5 pr-[17px] rounded-lg border-[1.5px] border-[#FF8601] flex justify-center items-center">
             See More FAQs
           </button>
         </section>
       </main>
       <footer className="w-full bg-white px-2.5 flex flex-col gap-[53px]">
         <div className="flex flex-col gap-5">
-          <h2 className="text-4xl font-semibold text-black">Follow us</h2>
+          <h2 className="text-4xl font-semibold text-black font-montserrat">Follow us</h2>
           <div className="flex gap-[31px]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -414,9 +411,9 @@ With shoptinga you can sell all kinds of digital products like ebooks, online co
             </svg>
           </div>
         </div>
-        <div className="flex flex-col gap-[53px] md:flex-row md:justify-between md:px-4">
+        <div className="flex flex-col gap-[53px] font-montserrat md:flex-row md:justify-between md:px-4">
           <div>
-            <h2 className="text-4xl font-semibold text-black">Company</h2>
+            <h2 className="text-4xl font-semibold  text-black">Company</h2>
             <ul role="list" className="flex flex-col gap-[15px] font-[montserrat] text-2xl py-[15px]">
               <li><Link href='#'>Home</Link></li>
               <li><Link href='#'>Shop</Link></li>
@@ -439,7 +436,7 @@ With shoptinga you can sell all kinds of digital products like ebooks, online co
           </div>
         </div>
         <hr/>
-        <span className="text-xs font-bold text-black text-center mb-[77px]">Copyright © 2023 Shoptinga inc. All rights reserved.</span>
+        <span className="text-xs font-[arimo] font-bold text-black text-center mb-[77px]">Copyright © 2023 Shoptinga inc. All rights reserved.</span>
       </footer>
     </>
   );

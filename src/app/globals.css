@@ -26,6 +26,12 @@ body {
     rgb(var(--background-start-rgb));
     background-color: white;
 }
+.eclipse_bg{
+  background-image: url('../../public/ecllipse_bg.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 /* .bg_img{
   background-image:  url('../../public/bg-img.png'), linear-gradient(180deg, rgba(21, 20, 18, 0.50) 0%, rgba(14, 13, 12, 0.50) 100%);
   
